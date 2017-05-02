@@ -12,7 +12,7 @@ namespace testsln8
     [ServiceContract]
     public interface IService1
     {
-
+//Commit on Master repo
         [OperationContract]
         string GetData(int value);
 

@@ -15,7 +15,7 @@ namespace testsln8
 //Commit on Master repo
         [OperationContract]
         string GetData(int value);
-
+//commit in slave repo
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
